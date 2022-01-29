@@ -1,0 +1,118 @@
+
+/* 	Extra small devices (phones, less than 768px) */
+
+@media only screen and (max-width: 767px) {
+
+    .header .intro-content .typed-cursor,
+    .section-sub-title h2{
+        font-size: 26px;
+    }
+
+    .header .intro-content h1{
+        font-size: 32px;
+    }
+
+    .header .intro-content h3{
+        font-size: 16px;
+    }
+
+    .navbar-default .logo {
+        margin-left: 20px;
+    }
+    .navbar-default .navbar-toggle {
+        background: none !important;
+        margin-top: 15px !important;
+        border: none !important;
+    }
+    .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-toggle:focus {
+        background: transparent !important;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background: #fff;
+    }
+    .navbar-default .navbar-nav > li {
+        line-height: 0;
+    }
+    .navbar-default .navbar-nav > li > a {
+        padding-bottom: 0 !important;
+        color: #111111;
+        display: inline-block;
+    }
+    .navbar-default .navbar-collapse {
+        text-align: center;
+        border: none;
+        border-top: 1px solid rgba(12, 12, 12, 0.04);
+        background: #fff;
+        margin-top: 5px;
+        padding-bottom: 15px;
+    }
+
+    .nav-scroll .navbar-toggle .icon-bar {
+        background: #111111;
+    }
+
+
+    .skills .list-skills {
+        padding: 30px 10px;
+    }
+
+    .feature-panel{
+        margin: 0;
+    }
+
+    .list-inline > li {
+        display: block;
+        padding: 10px 0;
+    }
+
+    .testimonial .testimonial-panel .testimonial--body {
+        padding: 0;
+    }
+
+    .testimonial-panel .testimonial--body p {
+        font-size: 17px;
+    }
+
+    .blog-entry {
+        padding: 0 0 40px;
+    }
+
+    .blog-entry .entry--meta,
+    .blog-entry .entry--title,
+    .blog-entry .entry--more,
+    .blog-entry .entry--content {
+        padding: 0 10px;
+    }
+
+    .contact-info {
+        margin-top: 50px !important;
+    }
+
+    .footer--copyright {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .footer-social-media {
+        text-align: center;
+        float: none !important;
+    }
+
+
+}
+
+
+/* Small devices (Tablets , less than 992px) */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .skills .list-skills {
+        padding: 30px 10px;
+    }
+
+    .contact-info {
+        margin-top: 50px !important;
+    }
+
+}
